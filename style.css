@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  background-image: url("todolist.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: 'Grand Hotel', cursive;
+}
+
+h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 80px;
+  margin: none;
+  align-items: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+p{
+  font-size: 20px;
+  margin : none;
+}
+
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 50%;
+    min-width: 450px;
+    max-height: auto;
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    border-radius:5%;
+    background-color: rgba(119, 117, 122, 0.5);
+  }
+
+#enter {
+      border:none;
+      padding: 5px 15px;
+      border-radius:5px;
+      color:#fff;
+      background-color:rgb(2, 2, 29);
+}
+
+#enter:hover{
+      opacity: 0.6;
+
+}
+
+ul {
+    text-align: left;
+    margin-top : 20px;
+    padding: 0px;
+
+}
+
+li{
+   list-style: none;
+   padding: 10px 20px ;
+   color:black;
+   font-weight:600;
+   font-size:20px ;
+   text-transform: capitalize;
+   border : 2px solid black;
+   border-radius: 5px;
+   margin-bottom:20px;
+   margin-right: 13%;
+   margin-left: 13%;
+   background-color:rgba(228, 217, 243, 0.5);
+
+}
+
+li :hover{
+  opacity: 1;
+}
+
+/* boutons dans li */
+li > button {  
+  font-weight: normal;
+  background: none;
+  margin:none;
+  float:right;
+  color:black;
+
+}
+
+input {
+  border-radius : 5px;
+  min-width: 65%;
+  border : none;
+  padding: 5px;
+}
+
+.done {
+  background : rgb(138, 187, 55) !important; 
+  text-decoration:line-through !important;
+  color : black;
+}
+
+.delete {
+  display : none;
+}
+
+.dBtn {
+  border-radius: 5px;
+  color:black;
+  border: none;
+  font-size: 20px;
+}
+
+.ri-delete-bin-line{
+  color: black;
+  
+  
+}
+
+.ri-delete-bin-line:hover{
+  color : rgba(255, 0, 0, 0.589);
+ }
